@@ -18,7 +18,8 @@ spec:
     spec:
       containers:
       - name: springboot-container
-        image: naresh240/springboot-k8s:latest
+        # image: naresh240/springboot-k8s:latest
+        image: stacksimplify/kube-nginxapp1:1.0.0
         imagePullPolicy: Always
         ports:
         - containerPort: 8080   
